@@ -11,12 +11,13 @@ body {
     color: rgb(228, 98, 98);
 }
 
-section {
+.flexible {
     display: flex;
+    padding: 5px 5px;
 }
 
 .half-width {
-    width: 50%;
+    width: 60%;
     padding-left: 2%;
     padding-right: 2%;
 }
@@ -31,17 +32,30 @@ section {
     padding: 10px 30px;
     font-weight: 700;
     color: black;
+    border-radius: 5px;
 }
 
 .button-link:hover {
 
-    border: black 2px solid;
+
     color: aliceblue;
-    background-color: coral;
+    background-image: linear-gradient(to right, skyblue, blue);
+    text-transform: uppercase;
+    text-align: justify;
 
 }
 
 .top {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.second-banner {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+#change-h-color:hover {
+    background-image: linear-gradient(to left, rgba(23, 3, 34, 0.158), rgba(0, 4, 5, 0.651))
 }
