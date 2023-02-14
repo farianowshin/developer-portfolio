@@ -2,6 +2,12 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 30px;
+    text-align: center;
+
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0%;
@@ -17,13 +23,13 @@ body {
 }
 
 .half-width {
-    width: 60%;
+    width: 40%;
     padding-left: 2%;
     padding-right: 2%;
 }
 
 .half-width img {
-    width: 100%;
+    width: 80%;
 }
 
 .button-link {
@@ -57,5 +63,37 @@ body {
 }
 
 #change-h-color:hover {
-    background-image: linear-gradient(to left, rgba(23, 3, 34, 0.158), rgba(0, 4, 5, 0.651))
+    background-image: linear-gradient(to left, rgba(23, 3, 34, 0.158), rgba(197, 118, 148, 0.693))
+}
+
+.bottom-area {
+    box-shadow: 10px 10px 30px rgba(97, 89, 89, 0.375);
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    padding-left: 20px;
+    text-align: justify;
+
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+#left {
+    border-left: 7px solid rgb(228, 98, 98);
+
+}
+
+#right {
+    border-left: 7px solid skyblue;
+}
+
+footer p {
+
+    text-align: center;
+    color: rgb(80, 72, 72);
 }
